@@ -1,0 +1,417 @@
+@import "variables"
+
+.pw_container
+  .firstScreen
+    background: $lightGrey
+    padding: 45px
+    position: relative
+    margin-bottom: 50px
+
+    h1
+      width: 605px
+      text-transform: uppercase
+      font-size: 42px
+      line-height: 47px
+      font-family: 'Open Sans', sans-serif
+      margin-bottom: 40px
+
+    &__list
+      margin-bottom: 30px
+      padding-left: 20px
+
+      li
+        color: $blue
+        margin-bottom: 10px
+
+      span
+        color: #000
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 18px
+
+    &__images
+      img
+        position: absolute
+        z-index: 4
+
+      .muteBasket
+        top: 0
+        right: 20%
+        z-index: 1
+
+      .blueBasket
+        top: 10px
+        right: -50px
+        z-index: 2
+
+      .redBasket
+        top: 40px
+        right: 250px
+        z-index: 3
+
+      .ariel
+        left: 43%
+        top: 45%
+
+      .banana
+        top: 17%
+        left: 53%
+
+      .lipton
+        top: 39%
+        left: 66%
+
+      .chicken
+        right: 1%
+        top: 48%
+
+      .headphones
+        right: 3%
+        top: 10%
+
+      .icecream
+        left: 69%
+        top: 3%
+
+      &__title
+        position: absolute
+        font-family: "Open Sans", Arial, sans-serif
+        font-weight: bold
+        font-size: 160px
+        text-transform: uppercase
+        color: #FFFFFF
+        bottom: 0
+        right: 0
+        line-height: 110px
+        z-index: 5
+
+  .btn
+    line-height: 50px
+    padding: 0 40px
+    font-family: "Open Sans", Arial, sans-serif
+    display: inline-block
+    text-decoration: none
+
+    svg
+      margin-left: 20px
+      vertical-align: middle
+
+    &.btn_blue
+      background: $blue
+      border: 1px solid #fff
+      color: #fff
+
+      &:hover
+        background: $darkBlue
+        border-color: $darkBlue
+
+  .advantages
+    position: relative
+    margin-bottom: 50px
+
+    &__list
+      list-style: none
+      display: flex
+      justify-content: space-around
+
+      li
+        display: flex
+        flex-direction: column
+        max-width: 250px
+        align-items: center
+        text-align: center
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 18px
+        line-height: 28px
+        width: 100%
+
+        div
+          display: flex
+          justify-content: center
+          align-items: center
+          width: 95px
+          height: 95px
+          background: $grey
+          -webkit-border-radius: 50%
+          -moz-border-radius: 50%
+          border-radius: 50%
+          margin-bottom: 20px
+
+        img
+          width: 55px
+
+    hr
+      position: absolute
+      top: 38px
+      height: 1px
+      background: $grey
+      border: none
+      left: 0
+      right: 0
+      z-index: -1
+
+  .description
+    margin-bottom: 90px
+
+    h2
+      font-size: 42px
+      font-weight: normal
+      line-height: 50px
+      font-family: "Open Sans", Arial, sans-serif
+      margin-bottom: 50px
+
+    ul
+      color: $blue
+      font-family: "Open Sans", Arial, sans-serif
+      font-size: 18px
+      line-height: 36px
+      padding-left: 20px
+
+      span
+        color: #000
+
+    &_top
+      img
+        float: left
+        margin-right: 60px
+        margin-bottom: 60px
+
+      &__content
+        margin-bottom: 70px
+
+        ul
+          -webkit-transform: translateX(20px)
+          -moz-transform: translateX(20px)
+          -ms-transform: translateX(20px)
+          -o-transform: translateX(20px)
+          transform: translateX(20px)
+
+          span
+            color: #000
+
+
+
+    &_bottom
+      img
+        float: right
+
+  .series
+    display: flex
+    margin-bottom: 80px
+
+    h2
+      font-size: 34px
+      font-weight: bold
+      line-height: 36px
+      font-family: "Open Sans", Arial, sans-serif
+      margin-bottom: 30px
+      text-transform: uppercase
+
+    &_left, &_right
+      position: relative
+      width: 50%
+      padding: 45px
+
+      li
+        color: $blue
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 18px
+        line-height: 2
+
+      .series__num
+        position: absolute
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 140px
+        color: #fff
+        bottom: 0
+        right: 0
+        line-height: 95px
+
+    &_left
+      background: $darkBlue
+
+      li
+        span
+          color: #fff
+
+      h2
+        color: #fff
+
+    &_right
+      background: $grey
+
+      li
+        span
+          color: #000
+
+  .products
+    margin-bottom: 80px
+    display: flex
+    justify-content: space-between
+    position: relative
+
+    &__content
+      width: 30%
+
+      h2
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 42px
+        line-height: 47px
+        text-transform: uppercase
+        max-width: 370px
+        margin-bottom: 40px
+
+      p
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 18px
+        line-height: 26px
+
+    &__slider
+      width: 65%
+
+    &__item
+      border: 1px solid $grey
+      padding: 40px
+      position: relative
+      height: 100%
+      box-sizing: border-box
+      margin: 0 20px
+
+      &:focus
+        outline: none
+
+      .btn
+        display: block
+        text-align: center
+
+      > img
+        margin-bottom: 40px
+
+      &__title
+        font-family: "Open Sans", Arial, sans-serif
+        font-size: 24px
+        line-height: 36px
+        font-weight: bold
+
+      ul
+        padding-left: 20px
+        margin-bottom: 40px
+
+        li
+          color: $blue
+          font-family: "Open Sans", Arial, sans-serif
+          line-height: 36px
+          font-size: 18px
+
+          span
+            color: #000
+
+      &__label
+        position: absolute
+        top: 0
+        right: 0
+
+  .slick-list
+    margin: 0 -20px
+
+  .slick-arrow
+    position: absolute
+    left: 0
+    bottom: 40px
+    width: 65px
+    height: 65px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50%
+    background: $blue
+    border: none
+    cursor: pointer
+
+    &:hover
+      background: $darkBlue
+
+    &.slick-prev
+      -webkit-transform: rotate(180deg)
+      -moz-transform: rotate(180deg)
+      -ms-transform: rotate(180deg)
+      -o-transform: rotate(180deg)
+      transform: rotate(180deg)
+
+    &.slick-next
+      left: 80px
+
+    &:focus
+      outline: none
+
+  .slick-slider
+    position: static
+
+  .offer
+    margin-bottom: 80px
+    display: flex
+    padding: 40px
+    min-height: 220px
+    background: $darkBlue
+    box-sizing: border-box
+    position: relative
+
+    &_left
+      width: 50%
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+      &_half
+        width: 50%
+        display: flex
+
+        &:first-child
+          padding-right: 30px
+
+        h3
+          color: #fff
+          font-family: "Open Sans", Arial, sans-serif
+          font-size: 24px
+          line-height: 34px
+          font-weight: bold
+
+        img
+          margin-right: 30px
+
+    &_bg
+      position: absolute
+      bottom: -220px
+      left: 50%
+      -webkit-transform: translateX(-30%)
+      -moz-transform: translateX(-30%)
+      -ms-transform: translateX(-30%)
+      -o-transform: translateX(-30%)
+      transform: translateX(-30%)
+
+    &__contacts
+      color: #fff
+      font-family: "Open Sans", Arial, sans-serif
+      margin-left: auto
+
+      p
+        font-size: 18px
+        line-height: 34px
+        margin: 0
+
+      &__phone
+        font-size: 42px
+        font-weight: bold
+        color: #FFFFFF
+        text-decoration: none
+
+        span
+          color: $blue
+
+  .anyBlocks
+    margin-bottom: 80px
+
+    h2
+      font-family: "Open Sans", Arial, sans-serif
+      font-size: 42px
+      line-height: 47px
+      text-transform: uppercase
+      margin-bottom: 40px
