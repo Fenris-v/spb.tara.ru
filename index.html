@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -11,8 +12,11 @@
 
 <style>
     body .right_block.wide_, body .right_block.wide_N {
-        width: 1315px;
-        margin: 0 0 0 336px;
+        max-width: 1315px;
+    }
+
+    .pw_container {
+        max-width: 100%;
     }
 </style>
 
@@ -22,8 +26,8 @@
             <h1>Многооборотные ящики для доставки продуктов серии Futura и Futura Safe pro</h1>
             <ul class="firstScreen__list">
                 <li><span>Для безопасного хранения и транспортировки</span></li>
-                <li><span>Для охлаждения и замороженной проукции</span></li>
-                <li><span>Для продуктов с держатлями под пакеты</span></li>
+                <li><span>Для охлаждения и замороженной продукции</span></li>
+                <li><span>Для продуктов с держателями под пакеты</span></li>
             </ul>
             <a href="#" class="btn btn_blue">ПЕРЕЙТИ В КАТАЛОГ
                 <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,18 +37,7 @@
                 </svg>
             </a>
 
-            <div class="firstScreen__images">
-                <img class="ariel" src="images/ariel.png" alt="bg">
-                <img class="banana" src="images/banana.png" alt="bg">
-                <img class="lipton" src="images/lipton.png" alt="bg">
-                <img class="icecream" src="images/icecream.png" alt="bg">
-                <img class="headphones" src="images/headphones.png" alt="bg">
-                <img class="chicken" src="images/chicken.png" alt="bg">
-                <img class="muteBasket" src="images/mute-basket.png" alt="bg">
-                <img class="blueBasket" src="images/blue-basket.png" alt="bg">
-                <img class="redBasket" src="images/red-basket.png" alt="bg">
-                <div class="firstScreen__images__title">Futura</div>
-            </div>
+            <img src="images/bg.jpg" alt="bg">
         </section>
 
         <section class="advantages">
@@ -106,95 +99,114 @@
             </div>
             <div class="description_bottom">
                 <img src="images/description2.jpg" alt="photo">
-                <h2>Транспортировка в любых видах транспорта</h2>
-                <ul>
-                    <li>
-                        <span>Ушки для удержания пакетов</span>
-                    </li>
-                    <li>
-                        <span>Сплошное дно</span>
-                    </li>
-                    <li>
-                        <span>Стенки с мелкой перфорацией для вентиляции</span>
-                    </li>
-                    <li>
-                        <span>Все преимущества штабелирования</span>
-                    </li>
-                </ul>
+                <div>
+                    <h2>Транспортировка в любых видах транспорта</h2>
+                    <ul>
+                        <li>
+                            <span>Ушки для удержания пакетов</span>
+                        </li>
+                        <li>
+                            <span>Сплошное дно</span>
+                        </li>
+                        <li>
+                            <span>Стенки с мелкой перфорацией для вентиляции</span>
+                        </li>
+                        <li>
+                            <span>Все преимущества штабелирования</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
         <section class="series">
             <div class="series_left">
-                <h2>СЕРИЯ FUTURA</h2>
-                <ul>
-                    <li>
-                        <span>Вкладывание\штабелирование в единые соты</span>
-                    </li>
-                    <li>
-                        <span>Выбор стенок и дна</span>
-                    </li>
-                    <li>
-                        <span>Площадка под этикетку</span>
-                    </li>
-                    <li>
-                        <span>Стенки сплошные и перфорированные</span>
-                    </li>
-                </ul>
+                <div class="series__container">
+                    <h2>СЕРИЯ FUTURA</h2>
+                    <ul>
+                        <li>
+                            <span>Выбор ручек, стенок и дна</span>
+                        </li>
+                        <li>
+                            <span>Площадка под этикетку</span>
+                        </li>
+                        <li>
+                            <span>Стенки сплошные и перфорированные</span>
+                        </li>
+                        <li>
+                            <span>Возможно применение с крышкой</span>
+                        </li>
+                    </ul>
+                    <div class="series_bottom">Вкладывание \ штабелирование в единые сеты - этокомия до 20%</div>
+                </div>
                 <div class="series__num">01</div>
+                <img src="images/boxes.png" alt="box">
             </div>
             <div class="series_right">
-                <h2>СЕРИЯ FUTURA ZIP SAFE PRO</h2>
-                <ul>
-                    <li>
-                        <span>Защита от вскрытия</span>
-                    </li>
-                    <li>
-                        <span>Дополнительные ребра жесткости</span>
-                    </li>
-                    <li>
-                        <span>Выносные крепкие ручки</span>
-                    </li>
-                </ul>
+                <div class="series__container">
+                    <img src="images/boxes2.png" alt="box">
+                    <h2>СЕРИЯ FUTURA ZIP SAFE PRO</h2>
+                    <ul>
+                        <li>
+                            <span>Защита от вскрытия</span>
+                        </li>
+                        <li>
+                            <span>Дополнительные ребра жесткости</span>
+                        </li>
+                        <li>
+                            <span>Выносные крепкие ручки</span>
+                        </li>
+                        <li>
+                            <span>Встроенная крышка</span>
+                        </li>
+                    </ul>
+                    <div class="series_bottom">Вкладывание \ штабелирование в единые сеты - этокомия до 20%</div>
+                </div>
                 <div class="series__num">02</div>
             </div>
         </section>
 
+        <section class="items">
+            <a href="#" class="items_half">
+                <img src="images/up.png" alt="img">
+                <div class="items_half__title">Внешние крышки для ящиков</div>
+            </a>
+            <a href="#" class="items_half">
+                <img src="images/wheels.png" alt="img">
+                <div class="items_half__title">Тележки с резиновыми или полиамидными колесами</div>
+            </a>
+        </section>
+
         <section class="products">
-            <div class="products__content">
-                <h2>новинки нашей продукции:</h2>
-                <p>C помощью этого онлайн-генератора рыботекста можно пачками плодить как отдельные предложения и
-                    заголовки, так и целые абзацы отменнейшего рыбы-текста. А для любителей автоматизации даже
-                    реализован API фиштекста.</p>
+            <div class="products__item products__item_first">
+                <img src="images/boxes3.png" alt="item">
+                <div class="products__item__content">
+                    <div class="products__item__title">
+                        Пластиковый ящик 4 6434
+                    </div>
+                    <p>Для хранения и доставки продуктов с держателями под пакеты</p>
+                    <ul>
+                        <li>
+                            <span>Сплошное дно</span>
+                        </li>
+                        <li>
+                            <span>Ушки для удержания пакетов</span>
+                        </li>
+                        <li>
+                            <span>Перфорированные стенки</span>
+                        </li>
+                    </ul>
+                    <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
+                </div>
             </div>
-            <div class="products__slider">
-                <div class="products__item">
-                    <img src="images/box1.png" alt="item">
-                    <div class="products__item__title">
-                        Пластиковый ящик (4-6434)
-                    </div>
-                    <ul>
-                        <li>
-                            <span>Сплошное дно</span>
-                        </li>
-                        <li>
-                            <span>Ушки для удержания пакетов</span>
-                        </li>
-                        <li>
-                            <span>Перфорированные стенки</span>
-                        </li>
-                    </ul>
-                    <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
-                    <div>
-                        <img class="products__item__label" src="images/label.png" alt="label">
-                    </div>
-                </div>
 
-                <div class="products__item">
-                    <img src="images/box1.png" alt="item">
+            <div class="products__item products__item_second">
+                <img src="images/car.jpg" alt="item">
+                <div class="products__item__content">
                     <div class="products__item__title">
-                        Пластиковый ящик (600-6427гд)
+                        Пластиковый ящик 4 6434
                     </div>
+                    <p>Для хранения и доставки продуктов с держателями под пакеты</p>
                     <ul>
                         <li>
                             <span>Высота ящика (270 мм)</span>
@@ -202,52 +214,9 @@
                         <li>
                             <span>До трех ящиков в высоту в автомобиле Lada Largus</span>
                         </li>
-                    </ul>
-                    <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
-                    <div>
-                        <img class="products__item__label" src="images/label.png" alt="label">
-                    </div>
-                </div>
 
-                <div class="products__item">
-                    <img src="images/box1.png" alt="item">
-                    <div class="products__item__title">
-                        Пластиковый ящик (4-6434)
-                    </div>
-                    <ul>
-                        <li>
-                            <span>Сплошное дно</span>
-                        </li>
-                        <li>
-                            <span>Ушки для удержания пакетов</span>
-                        </li>
-                        <li>
-                            <span>Перфорированные стенки</span>
-                        </li>
                     </ul>
                     <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
-                    <div>
-                        <img class="products__item__label" src="images/label.png" alt="label">
-                    </div>
-                </div>
-
-                <div class="products__item">
-                    <img src="images/box1.png" alt="item">
-                    <div class="products__item__title">
-                        Пластиковый ящик (600-6427гд)
-                    </div>
-                    <ul>
-                        <li>
-                            <span>Высота ящика (270 мм)</span>
-                        </li>
-                        <li>
-                            <span>До трех ящиков в высоту в автомобиле Lada Largus</span>
-                        </li>
-                    </ul>
-                    <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
-                    <div>
-                        <img class="products__item__label" src="images/label.png" alt="label">
-                    </div>
                 </div>
             </div>
         </section>
@@ -271,15 +240,15 @@
             </div>
         </section>
 
-        <section class="anyBlocks">
-            <h2>Серия Futura zip safe pro:</h2>
-            <img src="images/image.png" alt="">
-        </section>
+        <!--        <section class="anyBlocks">-->
+        <!--            <h2>Серия Futura zip safe pro:</h2>-->
+        <!--            <img src="images/image.png" alt="">-->
+        <!--        </section>-->
 
-        <section class="anyBlocks">
-            <h2>серия Futura:</h2>
-            <img src="images/image.png" alt="">
-        </section>
+        <!--        <section class="anyBlocks">-->
+        <!--            <h2>серия Futura:</h2>-->
+        <!--            <img src="images/image.png" alt="">-->
+        <!--        </section>-->
     </div>
 </div>
 
