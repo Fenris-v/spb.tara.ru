@@ -186,6 +186,9 @@
   margin-bottom: 80px;
   display: flex;
   justify-content: space-between; }
+  .pw_container .items_section h2 {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase; }
   .pw_container .items_half {
     background: #F2F2F2;
     display: flex;
@@ -205,6 +208,9 @@
   margin-bottom: 80px;
   justify-content: space-between;
   position: relative; }
+  .pw_container .products h2 {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase; }
   .pw_container .products__item {
     display: flex;
     padding: 20px;

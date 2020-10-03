@@ -29,7 +29,7 @@
                 <li><span>Для охлаждения и замороженной продукции</span></li>
                 <li><span>Для продуктов с держателями под пакеты</span></li>
             </ul>
-            <a href="#" class="btn btn_blue">ПЕРЕЙТИ В КАТАЛОГ
+            <a href="#items" class="btn btn_blue btn_anchor">ПЕРЕЙТИ В КАТАЛОГ
                 <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M0.183058 0.188289C0.427136 -0.0627628 0.822864 -0.0627628 1.06694 0.188289L4.81694 4.04543C5.06102 4.29648 5.06102 4.70352 4.81694 4.95457L1.06694 8.81171C0.822864 9.06276 0.427136 9.06276 0.183058 8.81171C-0.0610194 8.56066 -0.0610194 8.15363 0.183058 7.90257L3.49112 4.5L0.183058 1.09743C-0.0610194 0.846375 -0.0610194 0.43934 0.183058 0.188289Z"
@@ -166,57 +166,63 @@
             </div>
         </section>
 
-        <section class="items">
-            <a href="#" class="items_half">
-                <img src="images/up.png" alt="img">
-                <div class="items_half__title">Внешние крышки для ящиков</div>
-            </a>
-            <a href="#" class="items_half">
-                <img src="images/wheels.png" alt="img">
-                <div class="items_half__title">Тележки с резиновыми или полиамидными колесами</div>
-            </a>
+        <section class="items_section">
+            <h2>Сопутствующие товары</h2>
+            <div class="items">
+                <a href="#" class="items_half">
+                    <img src="images/up.png" alt="img">
+                    <div class="items_half__title">Внешние крышки для ящиков</div>
+                </a>
+                <a href="#" class="items_half">
+                    <img src="images/wheels.png" alt="img">
+                    <div class="items_half__title">Тележки с резиновыми или полиамидными колесами</div>
+                </a>
+            </div>
         </section>
 
         <section class="products">
-            <div class="products__item products__item_first">
-                <img src="images/boxes3.png" alt="item">
-                <div class="products__item__content">
-                    <div class="products__item__title">
-                        Пластиковый ящик 4 6434
+            <h2>Новинки продукции</h2>
+            <div class="products__slider">
+                <div class="products__item products__item_first">
+                    <img src="images/boxes3.png" alt="item">
+                    <div class="products__item__content">
+                        <div class="products__item__title">
+                            Пластиковый ящик 4 6434
+                        </div>
+                        <p>Для хранения и доставки продуктов с держателями под пакеты</p>
+                        <ul>
+                            <li>
+                                <span>Сплошное дно</span>
+                            </li>
+                            <li>
+                                <span>Ушки для удержания пакетов</span>
+                            </li>
+                            <li>
+                                <span>Перфорированные стенки</span>
+                            </li>
+                        </ul>
+                        <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
                     </div>
-                    <p>Для хранения и доставки продуктов с держателями под пакеты</p>
-                    <ul>
-                        <li>
-                            <span>Сплошное дно</span>
-                        </li>
-                        <li>
-                            <span>Ушки для удержания пакетов</span>
-                        </li>
-                        <li>
-                            <span>Перфорированные стенки</span>
-                        </li>
-                    </ul>
-                    <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
                 </div>
-            </div>
 
-            <div class="products__item products__item_second">
-                <img src="images/car.jpg" alt="item">
-                <div class="products__item__content">
-                    <div class="products__item__title">
-                        Пластиковый ящик 4 6434
+                <div class="products__item products__item_second">
+                    <img src="images/car.jpg" alt="item">
+                    <div class="products__item__content">
+                        <div class="products__item__title">
+                            Пластиковый ящик 4 6434
+                        </div>
+                        <p>Для хранения и доставки продуктов с держателями под пакеты</p>
+                        <ul>
+                            <li>
+                                <span>Высота ящика (270 мм)</span>
+                            </li>
+                            <li>
+                                <span>До трех ящиков в высоту в автомобиле Lada Largus</span>
+                            </li>
+
+                        </ul>
+                        <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
                     </div>
-                    <p>Для хранения и доставки продуктов с держателями под пакеты</p>
-                    <ul>
-                        <li>
-                            <span>Высота ящика (270 мм)</span>
-                        </li>
-                        <li>
-                            <span>До трех ящиков в высоту в автомобиле Lada Largus</span>
-                        </li>
-
-                    </ul>
-                    <a class="btn btn_blue" href="#">СМОТРЕТЬ ТОВАР</a>
                 </div>
             </div>
         </section>
@@ -240,15 +246,15 @@
             </div>
         </section>
 
-        <!--        <section class="anyBlocks">-->
-        <!--            <h2>Серия Futura zip safe pro:</h2>-->
-        <!--            <img src="images/image.png" alt="">-->
-        <!--        </section>-->
+        <section id="items" class="anyBlocks" style="max-width: 100%; overflow: hidden;">
+            <h2>Серия Futura zip safe pro:</h2>
+            <img src="images/image.png" alt="">
+        </section>
 
-        <!--        <section class="anyBlocks">-->
-        <!--            <h2>серия Futura:</h2>-->
-        <!--            <img src="images/image.png" alt="">-->
-        <!--        </section>-->
+        <section class="anyBlocks" style="max-width: 100%; overflow: hidden;">
+            <h2>серия Futura:</h2>
+            <img src="images/image.png" alt="">
+        </section>
     </div>
 </div>
 
